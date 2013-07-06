@@ -1,2 +1,2 @@
-app/code/community/Mgt/Akismet app/code/community/Mgt/Akismet
-app/etc/modules/Mgt_Akismet.xml app/etc/modules/Mgt_Akismet.xml
+app/code/community/Mgt/*    app/code/community/Mgt/
+app/etc/modules/*           app/etc/modules/
