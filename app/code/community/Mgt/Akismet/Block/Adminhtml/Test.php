@@ -38,7 +38,7 @@ class Mgt_Akismet_Block_Adminhtml_Test extends Mage_Adminhtml_Block_System_Confi
     
     protected function _getWidgetButtonHtml($title) 
     {
-        $url = Mage::helper('adminhtml')->getUrl('mgtakismet/test/test', array());
+        $url = Mage::helper('adminhtml')->getUrl('adminhtml/test/test', array());
         $widgetButton = $this->getLayout()->createBlock('adminhtml/widget_button');
         $widgetButton->setType('button')
             ->setLabel($this->__($title))

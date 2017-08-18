@@ -34,13 +34,13 @@
     </global>
     <admin>
         <routers>
-            <mgt_akismet>
-                <use>admin</use>
+            <adminhtml>
                 <args>
-                    <module>Mgt_Akismet</module>
-                    <frontName>mgtakismet</frontName>
+                    <modules>
+                        <mgt_akismet after="Mage_Adminhtml">Mgt_Akismet</mgt_akismet>
+                    </modules>
                 </args>
-            </mgt_akismet>
+            </adminhtml>
         </routers>
     </admin>
     <frontend>
